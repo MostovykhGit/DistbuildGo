@@ -1,0 +1,67 @@
+2024-05-11T14:32:06.123+0300	INFO	worker0	api/heartbeat_client.go:23	new heartbeat client
+2024-05-11T14:32:06.163+0300	INFO	worker1	api/heartbeat_client.go:23	new heartbeat client
+2024-05-11T14:32:06.198+0300	INFO	worker2	api/heartbeat_client.go:23	new heartbeat client
+2024-05-11T14:32:06.198+0300	INFO	client	api/build_client.go:87	build by client
+2024-05-11T14:32:06.198+0300	INFO	client	api/build_client.go:87	build by client
+2024-05-11T14:32:06.198+0300	INFO	worker2	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:06.199+0300	INFO	worker0	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:06.199+0300	INFO	worker1	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:06.199+0300	INFO	client	api/build_client.go:87	build by client
+2024-05-11T14:32:06.200+0300	INFO	coordinator	api/build_handler.go:105	start ServeHTTP in build handler
+2024-05-11T14:32:06.200+0300	INFO	coordinator	api/build_handler.go:105	start ServeHTTP in build handler
+2024-05-11T14:32:06.200+0300	INFO	coordinator	api/build_handler.go:48	Started
+2024-05-11T14:32:06.200+0300	INFO	coordinator	api/build_handler.go:48	Started
+2024-05-11T14:32:06.200+0300	INFO	coordinator	api/build_handler.go:105	start ServeHTTP in build handler
+2024-05-11T14:32:06.200+0300	INFO	coordinator	api/build_handler.go:48	Started
+2024-05-11T14:32:06.200+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:06.200+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:06.200+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:06.205+0300	INFO	worker0	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:06.207+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:06.207+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":{"ID":"6100000000000000000000000000000000000000","Stdout":null,"Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+2024-05-11T14:32:06.207+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:06.207+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":{"ID":"6100000000000000000000000000000000000000","Stdout":null,"Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+2024-05-11T14:32:06.207+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:06.207+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":{"ID":"6100000000000000000000000000000000000000","Stdout":null,"Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+2024-05-11T14:32:06.207+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":{"ID":"6100000000000000000000000000000000000000","Stdout":null,"Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+
+2024-05-11T14:32:06.208+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:06.208+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":{"ID":"6100000000000000000000000000000000000000","Stdout":null,"Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+
+2024-05-11T14:32:06.208+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:06.208+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":{"ID":"6100000000000000000000000000000000000000","Stdout":null,"Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+
+2024-05-11T14:32:06.208+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:07.228+0300	INFO	worker1	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:07.229+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:07.229+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":{"ID":"6201000000000000000000000000000000000000","Stdout":"T0s=","Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+2024-05-11T14:32:07.229+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:07.229+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":null,"BuildFailed":{"Error":"EOF"},"BuildFinished":null}
+2024-05-11T14:32:07.229+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":{"ID":"6201000000000000000000000000000000000000","Stdout":"T0s=","Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+
+2024-05-11T14:32:07.229+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:07.229+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":null,"BuildFailed":{"Error":"EOF"},"BuildFinished":null}
+
+2024-05-11T14:32:07.229+0300	INFO	client	api/build_client.go:81	Close
+2024-05-11T14:32:07.231+0300	INFO	worker0	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:07.232+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:07.232+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":{"ID":"6200000000000000000000000000000000000000","Stdout":"T0s=","Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+2024-05-11T14:32:07.232+0300	INFO	worker2	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:07.232+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:07.232+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":null,"BuildFailed":{"Error":"EOF"},"BuildFinished":null}
+2024-05-11T14:32:07.232+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":{"ID":"6200000000000000000000000000000000000000","Stdout":"T0s=","Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+
+2024-05-11T14:32:07.232+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:07.232+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":null,"BuildFailed":{"Error":"EOF"},"BuildFinished":null}
+
+2024-05-11T14:32:07.232+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:07.232+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":{"ID":"6202000000000000000000000000000000000000","Stdout":"T0s=","Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+2024-05-11T14:32:07.232+0300	INFO	client	api/build_client.go:81	Close
+2024-05-11T14:32:07.232+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:07.232+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":null,"BuildFailed":{"Error":"EOF"},"BuildFinished":null}
+2024-05-11T14:32:07.232+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":{"ID":"6202000000000000000000000000000000000000","Stdout":"T0s=","Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+
+2024-05-11T14:32:07.232+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:07.232+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":null,"BuildFailed":{"Error":"EOF"},"BuildFinished":null}
+
+2024-05-11T14:32:07.232+0300	INFO	client	api/build_client.go:81	Close

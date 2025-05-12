@@ -1,0 +1,23 @@
+2024-05-11T14:32:05.972+0300	INFO	worker0	api/heartbeat_client.go:23	new heartbeat client
+2024-05-11T14:32:05.972+0300	INFO	client	api/build_client.go:87	build by client
+2024-05-11T14:32:05.972+0300	INFO	worker0	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:05.972+0300	INFO	coordinator	api/build_handler.go:105	start ServeHTTP in build handler
+2024-05-11T14:32:05.972+0300	INFO	coordinator	api/build_handler.go:48	Started
+2024-05-11T14:32:05.973+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:05.976+0300	INFO	worker0	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:05.976+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:05.976+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":{"ID":"6100000000000000000000000000000000000000","Stdout":null,"Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+2024-05-11T14:32:05.976+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":{"ID":"6100000000000000000000000000000000000000","Stdout":null,"Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+
+2024-05-11T14:32:05.976+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:05.978+0300	INFO	worker0	api/heartbeat_client.go:31	heartbeat by client
+2024-05-11T14:32:05.978+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:05.978+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":{"ID":"6200000000000000000000000000000000000000","Stdout":"T0s=","Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+2024-05-11T14:32:05.978+0300	INFO	coordinator	api/build_handler.go:74	Updated
+2024-05-11T14:32:05.978+0300	INFO	coordinator	api/build_handler.go:84	Updated: {"JobFinished":null,"BuildFailed":{"Error":"EOF"},"BuildFinished":null}
+2024-05-11T14:32:05.978+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":{"ID":"6200000000000000000000000000000000000000","Stdout":"T0s=","Stderr":null,"ExitCode":0,"Error":null},"BuildFailed":null,"BuildFinished":{}}
+
+2024-05-11T14:32:05.978+0300	INFO	client	api/build_client.go:48	Next
+2024-05-11T14:32:05.978+0300	INFO	client	api/build_client.go:55	text in next {"JobFinished":null,"BuildFailed":{"Error":"EOF"},"BuildFinished":null}
+
+2024-05-11T14:32:05.979+0300	INFO	client	api/build_client.go:81	Close
